@@ -67,7 +67,7 @@ export default function IMC({ navigation }) {
         </Text>
       )}
 
-      {/* Botão personalizado com imagem para navegar para TDEE */}
+      
       <TouchableOpacity style={styles.buttonImage} onPress={() => navigation.navigate('TDEE')}>
         <Image source={require('../assets/tdee.png')} style={styles.icon} />
         <Text style={styles.buttonText}>Ir para TDEE</Text>
